@@ -1,0 +1,40 @@
+# build output
+dist
+.next
+.idea
+.cache
+.quokka
+
+# environment
+.env.local
+
+# yarn pnp zero installs
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# dependencies
+node_modules
+test/node_modules
+
+# logs & pids
+*.log
+logs
+pids
+
+# coverage
+.nyc_output
+coverage
+
+# test output
+test/**/out
+.DS_Store
+
+# repo
+repo.lock
+
+# heapdump snapshot
+*.heapsnapshot
